@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0134061C67061A00F3DF09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0134051C67061A00F3DF09 /* Assets.xcassets */; };
 		EE92F3DD1C60579D00C2E347 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE92F3DC1C60579D00C2E347 /* AppDelegate.swift */; };
 		EE92F3E21C60579D00C2E347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE92F3E01C60579D00C2E347 /* Main.storyboard */; };
-		EE92F3E41C60579D00C2E347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE92F3E31C60579D00C2E347 /* Assets.xcassets */; };
 		EE92F3E71C60579D00C2E347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE92F3E51C60579D00C2E347 /* LaunchScreen.storyboard */; };
 		EE92F3F21C60579D00C2E347 /* CalculatorMidTermTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE92F3F11C60579D00C2E347 /* CalculatorMidTermTests.swift */; };
 		EE92F3FD1C60579D00C2E347 /* CalculatorMidTermUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE92F3FC1C60579D00C2E347 /* CalculatorMidTermUITests.swift */; };
@@ -34,10 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE0134051C67061A00F3DF09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE92F3D91C60579C00C2E347 /* CalculatorMidTerm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalculatorMidTerm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE92F3DC1C60579D00C2E347 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE92F3E11C60579D00C2E347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EE92F3E31C60579D00C2E347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE92F3E61C60579D00C2E347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE92F3E81C60579D00C2E347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE92F3ED1C60579D00C2E347 /* CalculatorMidTermTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorMidTermTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,7 +100,7 @@
 				EE92F3DC1C60579D00C2E347 /* AppDelegate.swift */,
 				EE92F40C1C605DE600C2E347 /* CalculatorViewController.swift */,
 				EE92F3E01C60579D00C2E347 /* Main.storyboard */,
-				EE92F3E31C60579D00C2E347 /* Assets.xcassets */,
+				EE0134051C67061A00F3DF09 /* Assets.xcassets */,
 				EE92F3E51C60579D00C2E347 /* LaunchScreen.storyboard */,
 				EE92F3E81C60579D00C2E347 /* Info.plist */,
 			);
@@ -230,7 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE92F3E71C60579D00C2E347 /* LaunchScreen.storyboard in Resources */,
-				EE92F3E41C60579D00C2E347 /* Assets.xcassets in Resources */,
+				EE0134061C67061A00F3DF09 /* Assets.xcassets in Resources */,
 				EE92F3E21C60579D00C2E347 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +484,7 @@
 				EE92F4031C60579D00C2E347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE92F4041C60579D00C2E347 /* Build configuration list for PBXNativeTarget "CalculatorMidTermTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +493,7 @@
 				EE92F4061C60579D00C2E347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EE92F4071C60579D00C2E347 /* Build configuration list for PBXNativeTarget "CalculatorMidTermUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +502,7 @@
 				EE92F4091C60579D00C2E347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
