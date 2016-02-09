@@ -162,4 +162,14 @@ class CalculatorViewController: UIViewController {
 }
 
 
+/* TODO:
+
+- Get Decimals / floats working
+- Get negative & positive button working
+- Get percent button working
+- More robost error handling
+- Store values in memory
+
+*/
+
 
