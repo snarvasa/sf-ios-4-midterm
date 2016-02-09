@@ -12,8 +12,8 @@ class CalculatorViewController: UIViewController {
     
     var numA:Int?
     var numB:Int?
-    var operand:String?
-    var number:String = ""
+    var operand:String? // Holds the value of the operand
+    var number:String = "" // Holds the value of the number
     
     @IBOutlet weak var outputLabel: UILabel!
     
@@ -61,7 +61,7 @@ class CalculatorViewController: UIViewController {
     
     
     // Operand buttons
-    @IBAction func clearButton(sender: AnyObject) {
+    @IBAction func clearButton(sender: AnyObject) { // Clears all the values for numA, numB, operand as well as set output label to "0"
         numA = nil
         numB = nil
         operand = nil
@@ -122,7 +122,7 @@ class CalculatorViewController: UIViewController {
     }
     
     @IBAction func equalsButton(sender: AnyObject) {
-        calculator()
+        calculator()  // Calls the calculator function when the equals button is pressed
         operand = "calculate"
     }
  
